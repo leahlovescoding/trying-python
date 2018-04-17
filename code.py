@@ -1,4 +1,4 @@
-import datetime 
+from datetime import datetime 
 time = datetime.time
 date = datetime.date
 
