@@ -20,3 +20,8 @@ print(date)
 # import tkinter
 # from tkinter import Menu
 # from tkinter import ttk #themed TK
+from datetime import datetime #need to import datetime subclass to get the .now method
+time = datetime.time
+date = datetime.now
+
+print (time())
